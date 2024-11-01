@@ -1,3 +1,5 @@
+
+
 const quizData = [
     {
         question: "What does HTML stand for?",
@@ -6,16 +8,17 @@ const quizData = [
         points: 2
     },
     {
-        question: "Which tag is used to insert the largest heading in HTML?",
-        options: ["<h6>", "h1", "<h4>", "<h5>"],
-        correct: 1,
-        points: 2
+    question: "Which tag is used to insert the largest heading in HTML?",
+    options: ["&lt;h6&gt;", "&lt;h1&gt;", "&lt;h4&gt;", "&lt;h5&gt;"],
+    correct: 1,
+    points: 2
     },
-    {
-        question: "How do you create an unordered list (a list with bullets) in HTML?",
-        options: ["<ul>", "<ol>", "<li>", "<dl>"],
-        correct: 0,
-        points: 2
+    
+        {
+    question: "How do you create an unordered list (a list with bullets) in HTML?",
+    options: ["&lt;ul&gt;", "&lt;ol&gt;", "&lt;li&gt;", "&lt;dl&gt;"],
+    correct: 0,
+    points: 2
     },
     {
         question: "Which attribute is used to define inline styles in HTML?",
@@ -29,8 +32,9 @@ const quizData = [
         correct: 0,
         points: 2
     },
+    
     {
-        question: "What is the purpose of the <meta> tag in HTML?",
+        question: "What is the purpose of the &lt;meta&gt; tag in HTML?",
         options: ["To style elements", "To provide metadata about the HTML document", "To insert JavaScript", "To link external CSS files"],
         correct: 1,
         points: 2
@@ -70,115 +74,110 @@ const quizData = [
         correct: 0,
         points: 2
     },
-    {
-        question: "How do you link an external CSS file to an HTML document?",
-        options: [
-            "<style src=\"styles.css\"></style>",
-            "<link rel=\"stylesheet\" type=\"text/css\" href=\"styles.css\">",
-            "<css href=\"styles.css\"></css>",
-            "<include href=\"styles.css\"></include>"
-        ],
-        correct: 1,
-        points: 2
-    },
-    {
-        question: "What is the correct way to start an ordered list with the count of numeric value 4 in HTML?",
-        options: ["<ol start=\"4\">", "<ul start=\"4\">", "<li start=\"4\">", "None of the above"],
-        correct: 0,
-        points: 2
-    },
-    {
-        question: "How do you add a background color for all <h1> elements in CSS?",
-        options: [
-            "h1.all {background-color:#FFFFFF;}",
-            "all.h1 {background-color:#FFFFFF;}",
-            "h1 {background-color:#FFFFFF;}",
-            ".h1 {background-color:#FFFFFF;}"
-        ],
-        correct: 2,
-        points: 2
-    },
-    {
-        question: "Which CSS property is used to change the font?",
-        options: ["font-family property", "font-weight", "font-size", "font-style"],
-        correct: 0,
-        points: 2
-    },
-    {
-        question: "What is the correct HTML element for inserting a line break?",
-        options: ["<lb>", "<br>", "<break>", "None of them"],
-        correct: 1,
-        points: 2
-    },
-    {
-        question: "How do you create a bulleted list in HTML?",
-        options: ["<ol type=\"disc\">", "<list>", "<ul>", "<dl>"],
-        correct: 2,
-        points: 2
-    },
-    {
-        question: "What is the purpose of the <div> element in HTML?",
-        options: [
-            "To style text",
-            "To insert images",
-            "To group and style other elements or sections of a web page",
-            "To create hyperlinks"
-        ],
-        correct: 2,
-        points: 2
-    },
-    {
-        question: "Which CSS property controls the space around elements?",
-        options: ["border", "margin", "padding", "outline"],
-        correct: 1,
-        points: 2
-    },
-    {
-        question: "How do you select elements with id=\"demo\" in CSS?",
-        options: [".demo", "#demo", "id=demo", "demo"],
-        correct: 1,
-        points: 2
-    },
-    {
-        question: "What is the purpose of the <span> tag in HTML?",
-        options: [
-            "To define a section in a document",
-            "To specify inline styles",
-            "To group inline-elements in a document",
-            "To insert a line break"
-        ],
-        correct: 2,
-        points: 2
-    },
-    {
-        question: "How do you display hyperlinks without an underline in CSS?",
-        options: ["text-decoration: none;", "underline: false;", "link-style: no-underline;", "None of the above"],
-        correct: 0,
-        points: 2
-    },
-    {
-        question: "Which HTML element defines the title of a document?",
-        options: ["<title>", "<head>", "<header>", "None of the above"],
-        correct: 0,
-        points: 2
-    },
-    {
-        question: "What is the purpose of the alt attribute in the <img> tag?",
-        options: [
-            "Specifies an alternate text for an image",
-            "Sets the width and height of an image",
-            "Defines the source of an image",
-            "None of the above"
-        ],
-        correct: 0,
-        points: 2
-    },
-    {
-        question: "Which CSS property is used to change the background color of an element?",
-        options: ["background-color", "bgcolor", "color-background", "None of the above"],
-        correct: 0,
-        points: 2
-    }
+    
+
+// Question 12
+{
+    question: "How do you link an external CSS file to an HTML document?",
+    options: [
+        "&lt;style src=\"styles.css\"&gt;&lt;/style&gt;",
+        "&lt;link rel=\"stylesheet\" type=\"text/css\" href=\"styles.css\"&gt;",
+        "&lt;css href=\"styles.css\"&gt;&lt;/css&gt;",
+        "&lt;include href=\"styles.css\"&gt;&lt;/include&gt;"
+    ],
+    correct: 1,
+    points: 2
+},
+
+// Question 13
+{
+    question: "What is the correct way to start an ordered list with the count of numeric value 4 in HTML?",
+    options: ["&lt;ol start=\"4\"&gt;", "&lt;ul start=\"4\"&gt;", "&lt;li start=\"4\"&gt;", "None of the above"],
+    correct: 0,
+    points: 2
+},
+
+// Question 14
+{
+    question: "How do you add a background color for all &lt;h1&gt; elements in CSS?",
+    options: [
+        "h1.all {background-color:#FFFFFF;}",
+        "all.h1 {background-color:#FFFFFF;}",
+        "h1 {background-color:#FFFFFF;}",
+        ".h1 {background-color:#FFFFFF;}"
+    ],
+    correct: 2,
+    points: 2
+},
+
+// Question 16
+{
+    question: "What is the correct HTML element for inserting a line break?",
+    options: ["&lt;lb&gt;", "&lt;br&gt;", "&lt;break&gt;", "None of them"],
+    correct: 1,
+    points: 2
+},
+
+// Question 17
+{
+    question: "How do you create a bulleted list in HTML?",
+    options: ["&lt;ol type=\"disc\"&gt;", "&lt;list&gt;", "&lt;ul&gt;", "&lt;dl&gt;"],
+    correct: 2,
+    points: 2
+},
+
+// Question 18
+{
+    question: "What is the purpose of the &lt;div&gt; element in HTML?",
+    options: [
+        "To style text",
+        "To insert images",
+        "To group and style other elements or sections of a web page",
+        "To create hyperlinks"
+    ],
+    correct: 2,
+    points: 2
+},
+
+// Question 21
+{
+    question: "What is the purpose of the &lt;span&gt; tag in HTML?",
+    options: [
+        "To define a section in a document",
+        "To specify inline styles",
+        "To group inline-elements in a document",
+        "To insert a line break"
+    ],
+    correct: 2,
+    points: 2
+},
+
+// Question 23
+{
+    question: "Which HTML element defines the title of a document?",
+    options: ["&lt;title&gt;", "&lt;head&gt;", "&lt;header&gt;", "None of the above"],
+    correct: 0,
+    points: 2
+},
+
+// Question 24
+{
+    question: "What is the purpose of the alt attribute in the &lt;img&gt; tag?",
+    options: [
+        "Specifies an alternate text for an image",
+        "Sets the width and height of an image",
+        "Defines the source of an image",
+        "None of the above"
+    ],
+    correct: 0,
+    points: 2
+}, 
+{
+    question: "Which CSS property is used to change the background color of an element?",
+    options: ["background-color", "bgcolor", "color-background", "None of the above"],
+    correct: 0,  // Changed from 1 to 0 as per the original question
+    points: 2
+}
 ];
 
 class Quiz {
@@ -189,7 +188,6 @@ class Quiz {
         this.totalPoints = data.reduce((sum, q) => sum + q.points, 0);
         this.quizContent = document.getElementById('quiz-content');
         this.isComplete = false;
-        console.log('Total questions:', this.quizData.length); // Debug log
         this.init();
     }
 
@@ -207,28 +205,23 @@ class Quiz {
 
         const question = this.quizData[this.currentQuestion];
         const template = `
-            <div class="question-container">
-                <div class="question-number">Question ${this.currentQuestion + 1} of ${this.quizData.length}</div>
-                <div class="question">
-                    <div class="question-text">${question.question}</div>
-                    <div class="points">(${question.points} points)</div>
-                    <div class="options">
-                        ${question.options.map((option, index) => `
-                            <div class="option" data-index="${index}">${option}</div>
-                        `).join('')}
-                    </div>
+            <div class="question-number">Question ${this.currentQuestion + 1} of ${this.quizData.length}</div>
+            <div class="question">
+                <div class="question-text">${question.question}</div>
+                <div class="points">(${question.points} points)</div>
+                <div class="options">
+                    ${question.options.map((option, index) => `
+                        <div class="option" data-index="${index}">${option}</div>
+                    `).join('')}
                 </div>
-                <div class="controls">
-                    ${this.currentQuestion > 0 ? '<button id="prev-btn">Previous</button>' : ''}
-                    <button id="next-btn" disabled>
-                        ${this.currentQuestion === this.quizData.length - 1 ? 'Finish Quiz' : 'Next Question'}
-                    </button>
-                </div>
+            </div>
+            <div class="controls">
+                ${this.currentQuestion > 0 ? '<button id="prev-btn">Previous</button>' : ''}
+                ${this.currentQuestion < this.quizData.length ? `<button id="next-btn" disabled>${this.currentQuestion === this.quizData.length - 1 ? 'Finish Quiz' : 'Next Question'}</button>` : ''}
             </div>
         `;
 
         this.quizContent.innerHTML = template;
-        
         if (!this.isComplete) {
             this.addEventListeners();
         }
@@ -285,8 +278,8 @@ class Quiz {
     updateProgress() {
         const progress = document.querySelector('.progress');
         if (progress) {
-            const progressPercentage = ((this.currentQuestion + 1) / this.quizData.length) * 100;
-            progress.style.width = `${Math.min(progressPercentage, 100)}%`;
+            const progressPercentage = (this.currentQuestion / this.quizData.length) * 100;
+            progress.style.width = `${progressPercentage}%`;
         }
     }
 
@@ -295,9 +288,7 @@ class Quiz {
         const template = `
             <div class="result">
                 <h2>Quiz Completed!</h2>
-                <div class="score">
-                    Your Score: ${this.score}/${this.totalPoints} (${percentage.toFixed(1)}%)
-                </div>
+                <div class="score">Your Score: ${this.score}/${this.totalPoints} (${percentage.toFixed(1)}%)</div>
                 <div class="controls">
                     <button onclick="location.reload()">Restart Quiz</button>
                 </div>
@@ -308,8 +299,5 @@ class Quiz {
     }
 }
 
-// Make sure the DOM is loaded before initializing
-document.addEventListener('DOMContentLoaded', () => {
-    const quiz = new Quiz(quizData);
-    console.log('Quiz initialized with', quizData.length, 'questions');
-});
+// Initialize the quiz
+const quiz = new Quiz(quizData);
